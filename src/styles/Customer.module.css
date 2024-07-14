@@ -1,0 +1,33 @@
+.section {
+  min-height: 80vh;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  color: crimson;
+  font-weight: 700;
+  user-select: none;
+}
+.section > div {
+  width: 60%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1024px) {
+  .section > div {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .section > div {
+    width: 100%;
+  }
+}

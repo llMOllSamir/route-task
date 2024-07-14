@@ -1,0 +1,26 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 10px;
+  color: crimson;
+}
+.section h1 {
+  font-size: 32px;
+}
+.section h2 {
+  font-size: 24px;
+}
+.btn {
+  background-color: crimson;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 8px;
+  font-size: large;
+  font-weight: 600;
+  cursor: pointer;
+}
